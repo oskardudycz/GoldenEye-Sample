@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GoldenEyeTest", "..\..\WebSites\GoldenEyeTest\", "{35062CD3-1458-4BF6-A33B-DDF1A4137DAD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51663"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\GoldenEyeTest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51663\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51663"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\GoldenEyeTest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51663\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51663"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35062CD3-1458-4BF6-A33B-DDF1A4137DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35062CD3-1458-4BF6-A33B-DDF1A4137DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
