@@ -95,9 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,6 +107,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GoldenEyeTest.Business\GoldenEyeTest.Business.csproj">
+      <Project>{f9af459a-c52a-4d1b-a8b9-97024a0aff55}</Project>
+      <Name>GoldenEyeTest.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GoldenEyeTest.Shared\GoldenEyeTest.Shared.csproj">
+      <Project>{d5f3150e-105e-4f91-a5e3-b77b27ed44e1}</Project>
+      <Name>GoldenEyeTest.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
